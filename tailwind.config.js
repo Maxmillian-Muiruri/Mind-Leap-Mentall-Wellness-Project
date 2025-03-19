@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage: {
         'working-img' : "url('/work-proceess.webp')"
+        
       },
       fontFamily: {
         'primary' : ["Poppins", "sans-serif"],
