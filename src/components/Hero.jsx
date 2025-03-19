@@ -13,22 +13,21 @@ const Hero = () => {
 
         <div className="md:w-1/2">
           <h1 className="text-4xl font-secondary font-bold mb-4 md:w-3/5 leading-snug">
-            Start Your Journey to Mental Wellness
+            Empowering Students with Health & Counseling Services
           </h1>
           <p className="text-lg mb-12 md:pr-8">
-          Prioritizing mental well-being enhances focus, strengthens connections,  
-  and fosters self-compassion. Through our guided wellness resources, we  
-  empower students to manage stress, build resilience, and cultivate mindfulness.  
-  Let us walk you through the fundamentals of mental wellness and self-care,  
-  ensuring a healthier and more balanced student life.
+            Our platform provides a seamless way for students to book health and
+            counseling appointments, access wellness resources, and receive
+            timely support. With a focus on confidentiality, efficiency, and
+            accessibility, we ensure students get the care they need for a
+            balanced and healthier university experience.
           </p>
           <button className="bg-primary text-white py-3.5 px-8 font-medium rounded-md hover:bg-primary/90">
             <a href="#contact" className="flex gap-1 items-center">
               <span>Get Started</span>
-            <IoArrowForwardCircleSharp />
+              <IoArrowForwardCircleSharp />
             </a>
-            
-            </button>
+          </button>
         </div>
         {/* right side*/}
 
