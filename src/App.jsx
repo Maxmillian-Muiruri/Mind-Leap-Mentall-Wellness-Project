@@ -2,7 +2,7 @@ import "./App.css";
 import "./App.css";
 import Navbar from "./components/navbar";
 import Hero from "./components/Hero";
-import Services from "./components/services";
+import Services from "./components/Services";
 import About from "./components/About";
 import Pricing from "./components/Pricing";
 import Testimonial from "./components/testimonial";
