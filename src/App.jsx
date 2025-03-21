@@ -7,6 +7,8 @@ import About from "./components/About";
 import Pricing from "./components/Pricing";
 import Testimonial from "./components/testimonial";
 import WorkingStep from "./components/WorkingStep";
+import Contact from "./components/contact";
+
 function App() {
   return (
     <div className="font-primary overflow-x-hidden">
@@ -17,6 +19,7 @@ function App() {
       <WorkingStep/>
       <Pricing />
       <Testimonial />
+      <Contact/>
     </div>
   );
 }
