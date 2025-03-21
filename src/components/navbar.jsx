@@ -43,7 +43,7 @@ const Navbar = () => {
     if (targetElement) {
       window.scrollTo({
         top: targetElement.offsetTop,
-        behaviour: "smooth",
+        behavior: "smooth",
       });
     }
   };
@@ -162,12 +162,18 @@ const Navbar = () => {
 
         <div className="hidden md:block">
           <a
+
+          onClick={(e) => {
+           e.preventDefault();
+            handleScrollTo("contact");
+          } }
             href="#contact"
             className="text-white bg-primary hover:bg-primary/90 px-4 py-2 rounded"
           >
             Contact Us
           </a>
         </div>
+        
         {/* {humburger menu} */}
         <div className="block md:hidden">
           <button
@@ -197,6 +203,8 @@ const Navbar = () => {
                 onClick={(e) => {
                   e.preventDefault();
                   handleCloseMenu();
+                  handleScrollTo("contact");
+
                 }}
               >
                 Contact Us
