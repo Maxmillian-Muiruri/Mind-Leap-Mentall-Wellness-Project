@@ -5,13 +5,10 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import About from "./components/About";
 import Pricing from "./components/Pricing";
-import Testimonial from "./components/testimonial";
+import Testimonial from "./components/Testimonial";
 import WorkingStep from "./components/WorkingStep";
 import Contact from "./components/contact";
-<<<<<<< HEAD
-=======
 import Footer from "./components/Footer";
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
 
 function App() {
   return (
@@ -24,11 +21,8 @@ function App() {
       <Pricing />
       <Testimonial />
       <Contact/>
-<<<<<<< HEAD
-=======
       <Footer />
 
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
     </div>
   );
 }

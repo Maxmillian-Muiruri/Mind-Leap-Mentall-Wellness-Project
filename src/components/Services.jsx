@@ -5,19 +5,13 @@ import servicesImg2 from "../assets/service2.webp";
 import servicesImg3 from "../assets/service3.webp";
 import servicesImg4 from "../assets/service4.webp";
 
-<<<<<<< HEAD
-=======
 import { motion} from "framer-motion";
 import {fadeIn} from "../utils/animationVarience";
 
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
 const Services = () => {
   return (
     <div id="services" className="bg-[#f7f8fc] py-20">
       <div className="container mx-auto px-4">
-<<<<<<< HEAD
-        <div className="text-center space-y-6">
-=======
         <motion.div
 
             variants={fadeIn("up", 0.2)}
@@ -26,7 +20,6 @@ const Services = () => {
                   viewport={{ once: false, amount: 0.7 }}
         
         className="text-center space-y-6">
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
           <h2 className="text-5xl font-bold font-secondary text-heroBg">
             Student Health and Counseling Services
           </h2>
@@ -37,18 +30,11 @@ const Services = () => {
             personal guidance, we are here to help you achieve well-being and
             success.
           </p>
-<<<<<<< HEAD
-        </div>
-=======
         </motion.div>
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
 
         {/* Service Categories */}
         <div className="py-12 md:w-4/5 mx-auto">
           <Tabs>
-<<<<<<< HEAD
-            <TabList className="flex flex-nowrap justify-between items-center md:gap-8 gap-4 overflow-auto whitespace-nowrap">
-=======
             <motion.TabList
             
                 variants={fadeIn("up", 0.3)}
@@ -57,17 +43,10 @@ const Services = () => {
                       viewport={{ once: false, amount: 0.7 }}
 
             className="flex flex-nowrap justify-between items-center md:gap-8 gap-4 overflow-auto whitespace-nowrap">
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
               <Tab>Mental Health Counseling</Tab>
               <Tab>Academic Guidance</Tab>
               <Tab>Substance Abuse Support</Tab>
               <Tab>Wellness Coaching</Tab>
-<<<<<<< HEAD
-            </TabList>
-
-            <TabPanel>
-              <div className="flex flex-col md:flex-row gap-8 mt-8">
-=======
             </motion.TabList>
 
             <TabPanel>
@@ -79,7 +58,6 @@ const Services = () => {
 
               
               className="flex flex-col md:flex-row gap-8 mt-8">
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
                 <div className="md:w-1/2 bg-white rounded-lg p-12 shadow-lg">
                   <h3 className="text-3xl font-semibold text-primary mb-4">
                     Mental Health Counseling
@@ -107,13 +85,6 @@ const Services = () => {
                     className="w-full h-auto rounded-2xl object-cover"
                   />
                 </div>
-<<<<<<< HEAD
-              </div>
-            </TabPanel>
-
-            <TabPanel>
-              <div className="flex flex-col md:flex-row gap-8 mt-8">
-=======
               </motion.div>
             </TabPanel>
 
@@ -127,7 +98,6 @@ const Services = () => {
                         viewport={{ once: false, amount: 0.7 }}
 
               className="flex flex-col md:flex-row gap-8 mt-8">
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
                 <div className="md:w-1/2 bg-white rounded-lg p-12 shadow-lg">
                   <h3 className="text-3xl font-semibold text-primary mb-4">
                     Academic Guidance
@@ -154,13 +124,6 @@ const Services = () => {
                     className="w-full h-auto rounded-2xl object-cover"
                   />
                 </div>
-<<<<<<< HEAD
-              </div>
-            </TabPanel>
-
-            <TabPanel>
-              <div className="flex flex-col md:flex-row gap-8 mt-8">
-=======
               </motion.div>
             </TabPanel>
 
@@ -175,7 +138,6 @@ const Services = () => {
 
               
               className="flex flex-col md:flex-row gap-8 mt-8">
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
                 <div className="md:w-1/2 bg-white rounded-lg p-12 shadow-lg">
                   <h3 className="text-3xl font-semibold text-primary mb-4">
                     Substance Abuse Support
@@ -202,13 +164,6 @@ const Services = () => {
                     className="w-full h-auto rounded-2xl object-cover"
                   />
                 </div>
-<<<<<<< HEAD
-              </div>
-            </TabPanel>
-
-            <TabPanel>
-              <div className="flex flex-col md:flex-row gap-8 mt-8">
-=======
               </motion.div>
             </TabPanel>
 
@@ -221,7 +176,6 @@ const Services = () => {
                         viewport={{ once: false, amount: 0.7 }}
 
               className="flex flex-col md:flex-row gap-8 mt-8">
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
                 <div className="md:w-1/2 bg-white rounded-lg p-12 shadow-lg">
                   <h3 className="text-3xl font-semibold text-primary mb-4">
                     Wellness Coaching
@@ -248,11 +202,7 @@ const Services = () => {
                     className="w-full h-auto rounded-2xl object-cover"
                   />
                 </div>
-<<<<<<< HEAD
-              </div>
-=======
               </motion.div>
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
             </TabPanel>
           </Tabs>
         </div>

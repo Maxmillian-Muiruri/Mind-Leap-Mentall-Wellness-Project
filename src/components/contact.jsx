@@ -1,21 +1,15 @@
 import { div } from "framer-motion/client";
 import React, { useState } from "react";
 
-<<<<<<< HEAD
-=======
 
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
 import {
   FaEnvelope,
   FaGlobeAfrica,
   FaPhoneAlt,
   FaUserAlt,
 } from "react-icons/fa";
-<<<<<<< HEAD
-=======
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/animationVarience";
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
 
 const contact = () => {
 
@@ -56,16 +50,12 @@ const closeModal = () => {
     setMessage("")
 }
   return (
-<<<<<<< HEAD
-    <div
-=======
     <motion.div
     variants={fadeIn("up", 0.2)}
     initial="hidden"
     whileInView={"show"}
     viewport={{ once: false, amount: 0.7 }}
 
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
       className=" bg-heroBg flex items-center justify-center py-28 px-8"
       id="contact"
     >
@@ -184,11 +174,7 @@ const closeModal = () => {
         </div>
         )
       }
-<<<<<<< HEAD
-    </div>
-=======
     </motion.div>
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
   );
 };
 

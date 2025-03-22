@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-import { li } from "framer-motion/client";
-import React from "react";
-=======
 import React from "react";
 
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/animationVarience";
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
 const packages = [
   {
     name: "Bronze Package",
@@ -59,9 +54,6 @@ const handleScrollToContat = () => {
 }
 
   return (
-<<<<<<< HEAD
-    <div id="pricing" className="bg-[#f7f8fc] pt-32 ">
-=======
     <motion.div 
     
     variants={fadeIn("up", 0.2)}
@@ -70,7 +62,6 @@ const handleScrollToContat = () => {
           viewport={{ once: false, amount: 0.7 }}
           
     id="pricing" className="bg-[#f7f8fc] pt-32 ">
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
       <div className="container mx-auto px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold font-secondary mb-3 ">
@@ -106,11 +97,7 @@ const handleScrollToContat = () => {
           ))}
         </div>
       </div>
-<<<<<<< HEAD
-    </div>
-=======
     </motion.div>
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
   );
 };
 

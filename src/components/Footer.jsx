@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Footer = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default Footer
-=======
 import React from "react";
 import footerLogo from "../assets/footer-logo.svg";
 import {
@@ -154,4 +141,3 @@ const Footer = () => {
 };
 
 export default Footer;
->>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
