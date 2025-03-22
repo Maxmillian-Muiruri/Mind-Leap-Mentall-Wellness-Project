@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import thumbnail from "../assets/video-thumbnail.webp";
 import { IoPlay } from "react-icons/io5";
 import { IoArrowForwardCircleSharp } from "react-icons/io5";
+<<<<<<< HEAD
+=======
+import { motion } from "framer-motion";
+import { fadeIn } from "../utils/animationVarience";
+>>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
 
 const About = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -10,7 +15,18 @@ const About = () => {
   const handleCloseVideo = () => setIsVideoPlaying(false);
 
   return (
+<<<<<<< HEAD
     <div id="about" className="bg-[#f7f8fc] pb-16 pt-20">
+=======
+    <motion.div
+    
+    variants={fadeIn('down', 0.2)}
+                      initial= "hidden"
+                      whileInView={"show"}
+                      viewport={{once: false, amount: 0.7}}
+                      
+    id="about" className="bg-[#f7f8fc] pb-16 pt-20">
+>>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
       <div className="container mx-auto">
         <div className="py-12 px-4 md:w-4/5 mx-auto flex flex-col md:flex-row items-center gap-8">
           {/* Left side */}
@@ -80,7 +96,11 @@ const About = () => {
           </div>
         )}
       </div>
+<<<<<<< HEAD
     </div>
+=======
+    </motion.div>
+>>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
   );
 };
 

@@ -1,11 +1,28 @@
 import React from "react";
+<<<<<<< HEAD
+=======
+import { motion} from "framer-motion";
+import {fadeIn} from "../utils/animationVarience";
+>>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
 
 const WorkingStep = () => {
   return (
     <div className="relative bg-cover bg-center py-12 bg-working-img">
       <div className="absolute inset-0 bg-heroBg bg-opacity-85"></div>
 
+<<<<<<< HEAD
       <div className="relative container mx-auto px-4 py-20">
+=======
+      <motion.div 
+      
+      variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          
+      
+      className="relative container mx-auto px-4 py-20">
+>>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
         <div className="text-white text-center mb-20">
           <h2 className="text-4xl font-bold font-secondary mb-4">
             How It Works
@@ -51,7 +68,11 @@ const WorkingStep = () => {
             </p>
           </div>
         </div>
+<<<<<<< HEAD
       </div>
+=======
+      </motion.div>
+>>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
     </div>
   );
 };

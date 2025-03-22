@@ -8,6 +8,10 @@ import Pricing from "./components/Pricing";
 import Testimonial from "./components/testimonial";
 import WorkingStep from "./components/WorkingStep";
 import Contact from "./components/contact";
+<<<<<<< HEAD
+=======
+import Footer from "./components/Footer";
+>>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
 
 function App() {
   return (
@@ -20,6 +24,11 @@ function App() {
       <Pricing />
       <Testimonial />
       <Contact/>
+<<<<<<< HEAD
+=======
+      <Footer />
+
+>>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
     </div>
   );
 }

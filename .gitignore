@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
+=======
+
+node_modules
+>>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)

@@ -3,6 +3,12 @@ import { BsChatQuoteFill } from "react-icons/bs";
 import review1 from "../assets/review1.webp";
 import review2 from "../assets/review2.webp";
 
+<<<<<<< HEAD
+=======
+import { motion } from "framer-motion";
+import { fadeIn } from "../utils/animationVarience";
+
+>>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
 const testimonials = [
   {
     name: "Jane Doe",
@@ -22,7 +28,18 @@ const testimonials = [
 
 const Testimonial = () => {
   return (
+<<<<<<< HEAD
     <div id="testimonial" className="bg-[#f7f8fc] py-12">
+=======
+    <motion.div 
+    
+    variants={fadeIn("up", 0.2)}
+    initial="hidden"
+    whileInView={"show"}
+    viewport={{ once: false, amount: 0.7 }}
+    
+    id="testimonial" className="bg-[#f7f8fc] py-12">
+>>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
       <div className="container mx-auto p-20">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold font-secondary mb-3">
@@ -71,7 +88,11 @@ const Testimonial = () => {
           ))}
         </div>
       </div>
+<<<<<<< HEAD
     </div>
+=======
+    </motion.div>
+>>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
   );
 };
 

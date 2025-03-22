@@ -1,17 +1,40 @@
 import React from "react";
 import heroImg from "../assets/hero.webp";
 import { IoArrowForwardCircleSharp } from "react-icons/io5";
+<<<<<<< HEAD
 
+=======
+import { motion } from "framer-motion";
+import { fadeIn } from "../utils/animationVarience";
+>>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
 const Hero = () => {
   return (
     <section
       id="Home"
       className="bg-heroBg text-white flex items-center pt-28 md:h-screen "
     >
+<<<<<<< HEAD
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between p-8 overflow-y-hiden gap-12 h-full">
         {/* left side */}
 
         <div className="md:w-1/2">
+=======
+      <div 
+      
+      
+      
+      className="container mx-auto flex flex-col md:flex-row items-center justify-between p-8 overflow-y-hiden gap-12 h-full">
+        {/* left side */}
+
+        <motion.div 
+        
+        variants={fadeIn("down", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+        
+        className="md:w-1/2">
+>>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
           <h1 className="text-4xl font-secondary font-bold mb-4 md:w-3/5 leading-snug">
             Empowering Students with Health & Counseling Services
           </h1>
@@ -28,16 +51,34 @@ const Hero = () => {
               <IoArrowForwardCircleSharp />
             </a>
           </button>
+<<<<<<< HEAD
         </div>
         {/* right side*/}
 
         <div className="md:w-1/2 h-full flex items-center justify-center">
+=======
+        </motion.div>
+        {/* right side*/}
+
+        <motion.div 
+
+        variants={fadeIn("left", 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.7 }}
+        
+        className="md:w-1/2 h-full flex items-center justify-center">
+>>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
           <img
             src={heroImg}
             alt="hero image"
             className="w-full max-h-[534px] object-contain"
           />
+<<<<<<< HEAD
         </div>
+=======
+        </motion.div>
+>>>>>>> db6d720 (Add initial project setup with assets, configuration, and components)
       </div>
     </section>
   );
